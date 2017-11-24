@@ -1,0 +1,59 @@
+.innoPagination > li > a:hover, .innoPagination > li > span:hover, .innoPagination > li > a:focus, .innoPagination > li > span:focus {
+	color: #807b83;
+}
+
+ul.innoPagination {
+	text-align: center;
+	overflow: hidden;
+	margin: 1% 0 2% 0;
+}
+ul.innoPagination li:first-child {
+	margin-left: 0px;
+	margin-right: 0%;
+}
+ul.innoPagination li a {
+	color: #999;
+	display: block;
+	padding: 8px 15px 8px 15px;
+	text-decoration: none;
+	font-size: 13px;
+}
+ul.innoPagination li {
+	display: inline-block;
+	margin: 0px;
+	margin-left: 5px;
+	padding: 0px;
+}
+ul.innoPagination li:last-child {
+	margin-left: 5px;
+	margin-right: 0px;
+}
+ul.innoPagination li a:hover, ul.innoPagination li a.current {
+	background: #9e54a1;
+	color: #fff;
+}
+ul.innoPagination li a.first, ul.innoPagination li a.previous, ul.innoPagination li a.next, ul.innoPagination li a.last {
+	padding: 8px 10px 8px 10px;
+}
+
+ul.innoPagination li a.next_dot_link, ul.innoPagination li a.prev_dot_link {
+	
+    pointer-events: none;
+    cursor: default;
+    border: none;
+	
+}
+
+
+.innoPagination>li>a{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
